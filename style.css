@@ -58,3 +58,9 @@ aside img {
 .partner p {
   font-size: 14px;
 }
+.partner img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+}
