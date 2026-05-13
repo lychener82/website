@@ -22,3 +22,7 @@ nav a {
     text-decoration: none;
     margin: 5px 0;
 }
+p {
+    max-width: 650px;
+    line-height: 1.5;
+}
