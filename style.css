@@ -68,3 +68,8 @@ main img {
 .partner p {
   font-size: 14px;
 }
+.partner img {
+  width: 200px !important;
+  height: auto !important;
+  display: block;
+}
