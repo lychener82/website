@@ -26,3 +26,8 @@ p {
     max-width: 650px;
     line-height: 1.5;
 }
+h1 {
+    font-size: clamp(40px, 6vw, 90px);
+    font-weight: 300;
+    letter-spacing: 2px;
+}
