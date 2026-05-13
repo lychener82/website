@@ -28,6 +28,6 @@ p {
 }
 h1 {
     font-size: clamp(40px, 6vw, 90px);
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 2px;
 }
