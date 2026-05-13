@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 40px;
+
+  background: #f3f3f3;
+  color: #222;
+
+  font-family: Georgia, serif;
+  line-height: 1.45;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 80px;
+
+  max-width: 1400px;
+}
+
+main {
+  max-width: 760px;
+}
+
+.date {
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+aside img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.partner {
+  margin-bottom: 40px;
+}
+
+.partner p {
+  font-size: 14px;
+}
