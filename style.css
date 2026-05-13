@@ -22,7 +22,6 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 260px;
   gap: 80px;
-
   max-width: 1400px;
 }
 
@@ -46,8 +45,19 @@ p {
   margin-bottom: 40px;
 }
 
-aside img {
+/* 🟢 Bilder im Hauptbereich */
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 🟢 Sidebar / Partner Bilder */
+.partner img {
   width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
   margin-bottom: 10px;
 }
 
@@ -57,10 +67,4 @@ aside img {
 
 .partner p {
   font-size: 14px;
-}
-.partner img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  display: block;
 }
