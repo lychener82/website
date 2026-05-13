@@ -52,24 +52,18 @@ main img {
   display: block;
 }
 
-/* 🟢 Sidebar / Partner Bilder */
+/* 🟢 Sidebar / Partner Bereich */
+.partner {
+  margin-bottom: 40px;
+}
+
 .partner img {
-  width: 100%;
-  max-width: 200px;
+  width: 200px;
   height: auto;
   display: block;
   margin-bottom: 10px;
 }
 
-.partner {
-  margin-bottom: 40px;
-}
-
 .partner p {
   font-size: 14px;
-}
-.partner img {
-  width: 200px !important;
-  height: auto !important;
-  display: block;
 }
