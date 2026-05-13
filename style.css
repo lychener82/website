@@ -1,69 +1,43 @@
 body {
-  margin: 0;
-  padding: 40px;
-
-  background: #f3f3f3;
-  color: #222;
-
-  font-family: Arial;
-  line-height: 1.45;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
 }
 
 header {
-  margin-bottom: 60px;
+    background: #222;
+    color: white;
+    padding: 40px;
+    text-align: center;
 }
 
-h1 {
-  font-size: 32px;
-  font-weight: normal;
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
 }
 
-.layout {
-  display: grid;
-  grid-template-columns: 1fr 260px;
-  gap: 80px;
-  max-width: 1400px;
+.gallery {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
 }
 
-main {
-  max-width: 760px;
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
-.date {
-  font-style: italic;
-  margin-bottom: 40px;
-}
-
-h2 {
-  font-size: 48px;
-  font-weight: normal;
-  margin-bottom: 40px;
-}
-
-p {
-  font-size: 22px;
-  margin-bottom: 40px;
-}
-
-/* 🟢 Bilder im Hauptbereich */
-main img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* 🟢 Sidebar / Partner Bereich */
-.partner {
-  margin-bottom: 40px;
-}
-
-.partner img {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.partner p {
-  font-size: 14px;
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
 }
