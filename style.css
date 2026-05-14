@@ -44,7 +44,6 @@ p {
 #lightbox {
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 20px;
 }
 #lightbox img {
     max-width: 95vw;
