@@ -16,34 +16,15 @@
 <p>AMERICAN VS EUROPEAN TEACHING AID</p>
 
 <!-- LIGHTBOX BILDER -->
-<img src="1 2.jpg" class="preview" onclick="openLightbox(this)">
-<img src="2 2.jpg" class="preview" onclick="openLightbox(this)">
-<img src="3.jpg" class="preview" onclick="openLightbox(this)">
-<img src="4.jpg" class="preview" onclick="openLightbox(this)">
-<img src="5.jpg" class="preview" onclick="openLightbox(this)">
-<img src="6.jpg" class="preview" onclick="openLightbox(this)">
+<img src="1 2.jpg" class="preview" tabindex="0"">
+<img src="2 2.jpg" class="preview" tabindex="0">
+<img src="3.jpg" class="preview" tabindex="0">
+<img src="4.jpg" class="preview" tabindex="0">
+<img src="5.jpg" class="preview" tabindex="0">
+<img src="6.jpg" class="preview" tabindex="0">
 
 </section>
 
-<!-- LIGHTBOX (NUR EINMAL!) -->
-<div id="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img">
-</div>
-
-<!-- SCRIPT -->
-<script>
-function openLightbox(img) {
-    const box = document.getElementById("lightbox");
-    const boxImg = document.getElementById("lightbox-img");
-
-    box.style.display = "flex";
-    boxImg.src = img.src;
-}
-
-function closeLightbox() {
-    document.getElementById("lightbox").style.display = "none";
-}
-</script>
 
 </body>
 </html>
