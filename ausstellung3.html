@@ -15,32 +15,12 @@
 
 <p>All utensils, electrical devices, and other objects are removed from the kitchen. For 45 minutes, all four stove burners are set to maximum heat; the oven is set to its highest temperature with the door left open; the faucet runs at its hottest setting; the refrigerator operates at its lowest possible temperature with the door open; the heater is set to maximum and all windows in the kitchen are opened as wide as possible.</p>
 
-<!-- LIGHTBOX BILDER -->
-<img src="website.jpg" class="preview" onclick="openLightbox(this)">
-<img src="invitation.jpg" class="preview" onclick="openLightbox(this)">
+<img src="website.jpg" class="preview" tabindex="0">
+<img src="invitation.jpg" class="preview" tabindex="0">
 
 
 </section>
 
-<!-- LIGHTBOX -->
-<div id="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img">
-</div>
-
-<!-- SCRIPT -->
-<script>
-function openLightbox(img) {
-    const box = document.getElementById("lightbox");
-    const boxImg = document.getElementById("lightbox-img");
-
-    box.style.display = "flex";
-    boxImg.src = img.src;
-}
-
-function closeLightbox() {
-    document.getElementById("lightbox").style.display = "none";
-}
-</script>
 
 </body>
 </html>
