@@ -36,3 +36,12 @@ p {
     font-size: 14px;
     letter-spacing: 1px;
 }
+img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.08);
+}
