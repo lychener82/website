@@ -46,12 +46,17 @@ p {
     position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.95);
-    justify-content: center;
+
+    justify-content: flex-start; /* links statt zentriert */
     align-items: center;
+
+    padding: 40px;
 }
 
 #lightbox img {
     max-width: 95vw;
     max-height: 95vh;
+    width: auto;
+    height: auto;
     object-fit: contain;
 }
