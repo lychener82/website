@@ -11,9 +11,6 @@ body {
 }
 .preview {
     width: 250px;
-    height: auto;
-    display: block;
-    margin: 20px 0;
     cursor: pointer;
 }
 
@@ -42,15 +39,16 @@ p {
 
 /* LIGHTBOX */
 #lightbox {
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.95);
+
+    display: flex;
 }
+
 #lightbox img {
     max-width: 95vw;
     max-height: 95vh;
-    width: auto;
-    height: auto;
     object-fit: contain;
-
-    display: block;
 }
