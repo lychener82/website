@@ -41,7 +41,7 @@ p {
     position: fixed;
     inset: 0;
 
-    background: black;
+    background: transparent;
 
     justify-content: flex-start;
     align-items: flex-start;
