@@ -33,8 +33,11 @@
 <!-- SCRIPT -->
 <script>
 function openLightbox(img) {
-    document.getElementById("lightbox").style.display = "flex";
-    document.getElementById("lightbox-img").src = img.src;
+    const box = document.getElementById("lightbox");
+    const boxImg = document.getElementById("lightbox-img");
+
+    box.style.display = "flex";
+    boxImg.src = img.src;
 }
 
 function closeLightbox() {
