@@ -3,25 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine N*** Website</title>
+    <title>AMERICAN VS EUROPEAN TEACHING AID</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <a href="index.html" class="home-link">HOME</a>
+
 <section class="content">
-  
-<p>
- All utensils, electrical devices, and other objects are removed from the kitchen. For 45 minutes, all four stove burners are set to maximum heat; the oven is set to its highest temperature with the door left open; the faucet runs at its hottest setting; the refrigerator operates at its lowest possible temperature with the door open; the heater is set to maximum and all windows in the kitchen are opened as wide as possible.
-    </p>
-    <a href="website.jpg" target="_blank">
-    <img src="website.jpg" width="600" class="preview">
-</a>
-    <a href="invitation.jpg" target="_blank">
-    <img src="invitation.jpg" width="600" class="preview">
-</a>
 
-    <p>Cooked Michael Asher<br> Lychener Str. 82, 10437 Berlin<br> January 23, 8.00 - 8.45pm <br></p>
+<p>All utensils, electrical devices, and other objects are removed from the kitchen. For 45 minutes, all four stove burners are set to maximum heat; the oven is set to its highest temperature with the door left open; the faucet runs at its hottest setting; the refrigerator operates at its lowest possible temperature with the door open; the heater is set to maximum and all windows in the kitchen are opened as wide as possible.</p>
 
+<!-- LIGHTBOX BILDER -->
+<img src="website.jpg" class="preview" onclick="openLightbox(this)">
+<img src="invitation.jpg" class="preview" onclick="openLightbox(this)">
+
+
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+</div>
+
+<!-- SCRIPT -->
+<script>
+function openLightbox(img) {
+    const box = document.getElementById("lightbox");
+    const boxImg = document.getElementById("lightbox-img");
+
+    box.style.display = "flex";
+    boxImg.src = img.src;
+}
+
+function closeLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+    
+<p>Cooked Michael Asher<br> Lychener Str. 82, 10437 Berlin<br> January 23, 8.00 - 8.45pm <br></p>
 
 
 </body>
