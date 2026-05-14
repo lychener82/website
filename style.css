@@ -26,3 +26,13 @@ p {
     max-width: 1050px;
     line-height: 1;
 }
+.home-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
