@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine N*** Website</title>
+    <title>Meine Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <a href="index.html" class="home-link">HOME</a>
+
 <section class="content">
+
+<!-- HIER KOMMEN DEINE BILDER -->
+<img src="1.jpg" class="preview" onclick="openLightbox(this)">
+<img src="2.jpg" class="preview" onclick="openLightbox(this)">
+
+</section>
+
+<!-- LIGHTBOX (GANZ UNTEN IM BODY) -->
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+</div>
+
+<!-- SCRIPT (GANZ AM ENDE) -->
+<script>
+function openLightbox(img) {
+    document.getElementById("lightbox").style.display = "flex";
+    document.getElementById("lightbox-img").src = img.src;
+}
+
+function closeLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+}
+
+document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeLightbox();
+});
+</script>
+
+</body>
+</html>
   
 <p>
 AMERICAN VS EUROPEAN TEACHING AID
