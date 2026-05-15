@@ -38,6 +38,21 @@
 
 </section>
 
+<script>
+function toggleViewer(img) {
+    const viewer = document.getElementById("viewer");
 
+    if (viewer.style.display === "block" && viewer.src === img.src) {
+        viewer.style.display = "none";   // schließen
+    } else {
+        viewer.src = img.src;            // öffnen
+        viewer.style.display = "block";
+    }
+}
+
+function closeViewer() {
+    document.getElementById("viewer").style.display = "none";
+}
+</script>
 </body>
 </html>
