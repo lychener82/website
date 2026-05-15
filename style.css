@@ -7,7 +7,8 @@ body {
 }
 
 .preview {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
 
     cursor: pointer;
@@ -63,7 +64,7 @@ img:not(.preview):not(#viewer) {
 }
 .gallery.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
