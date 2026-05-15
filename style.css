@@ -73,5 +73,5 @@ img:not(.preview):not(#viewer) {
     display: block;
 }
 .gallery .preview {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
