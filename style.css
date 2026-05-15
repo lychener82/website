@@ -7,10 +7,11 @@ body {
 }
 
 .preview {
-    width: 100%;
+    width: 250px;
     height: auto;
+
     cursor: pointer;
-    margin: 0;
+    display: block;
 }
 #viewer {
     display: none;
@@ -62,7 +63,7 @@ img:not(.preview):not(#viewer) {
 }
 .gallery.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
     gap: 20px;
 }
 
