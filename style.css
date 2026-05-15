@@ -56,4 +56,6 @@ p {
     background: white;
     color: black;
 }
-
+img:not(.preview):not(#viewer) {
+    max-width: 100%;
+}
