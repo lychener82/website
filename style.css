@@ -60,8 +60,13 @@ p {
 img:not(.preview):not(#viewer) {
     max-width: 100%;
 }
-.gallery {
+.gallery.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+}
+
+/* Standard = kein Grid */
+.gallery {
+    display: block;
 }
