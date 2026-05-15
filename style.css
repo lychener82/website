@@ -71,3 +71,6 @@ img:not(.preview):not(#viewer) {
 .gallery {
     display: block;
 }
+.gallery .preview {
+    margin-bottom: 30px;
+}
