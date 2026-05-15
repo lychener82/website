@@ -8,42 +8,39 @@
 </head>
 
 <body>
-<a href="index.html" class="home-link">HOME</a><br>
-    
-    
+
+<a href="index.html" class="home-link">HOME</a>
+
 <section class="content">
 
-
-<br>
-
 <div class="gallery">
+
     <img src="thilo/4.jpg" class="preview" onclick="toggleViewer(this)">
-<img src="thilo/5.jpg" class="preview" onclick="toggleViewer(this)">
-<img src="thilo/6.jpg" class="preview" onclick="toggleViewer(this)">
+    <img src="thilo/5.jpg" class="preview" onclick="toggleViewer(this)">
+    <img src="thilo/6.jpg" class="preview" onclick="toggleViewer(this)">
     <img src="thilo/7.jpg" class="preview" onclick="toggleViewer(this)">
     <img src="thilo/1.jpg" class="preview" onclick="toggleViewer(this)">
     <img src="thilo/2.jpg" class="preview" onclick="toggleViewer(this)">
-</div>
-    <br>
 
+</div>
 
 <a href="thilo/handout.pdf" target="_blank">Text</a><br>
-  <a href="thilo/floorplan.jpg" target="_blank">
-    Floorplan</a><br>
-<a href="thilo/invite.jpg" target="_blank">
-    Poster
-</a>
+<a href="thilo/floorplan.jpg" target="_blank">Floorplan</a><br>
+<a href="thilo/invite.jpg" target="_blank">Poster</a>
+
 </section>
 
+<!-- VIEWER -->
+<img id="viewer" onclick="closeViewer()">
 
 <script>
 function toggleViewer(img) {
     const viewer = document.getElementById("viewer");
 
     if (viewer.style.display === "block" && viewer.src === img.src) {
-        viewer.style.display = "none";   // schließen
+        viewer.style.display = "none";
     } else {
-        viewer.src = img.src;            // öffnen
+        viewer.src = img.src;
         viewer.style.display = "block";
     }
 }
@@ -52,5 +49,6 @@ function closeViewer() {
     document.getElementById("viewer").style.display = "none";
 }
 </script>
+
 </body>
 </html>
