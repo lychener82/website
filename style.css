@@ -87,7 +87,7 @@ img:not(.preview):not(#viewer) {
 
     background-image: url("glitch.png");
     background-size: cover;
-    background-position: center;
+    background-position: left center;
 
     z-index: -1;
 }
