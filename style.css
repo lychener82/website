@@ -9,10 +9,8 @@ body {
 .preview {
     width: 100%;
     max-width: 500px;
-    height: auto;
-
-    cursor: pointer;
     display: block;
+    margin: 0;
 }
 #viewer {
     display: none;
@@ -75,13 +73,13 @@ img:not(.preview):not(#viewer) {
     display: block;
     margin-bottom: 20px;
 }
-.gallery .preview {
-    margin-bottom: 20px;
-}
+
 .content a {
     display: block;
     margin: 4px 0;
 }
+
+
 
 .caption {
     margin: 2px 0 10px 0;
