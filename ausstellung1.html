@@ -39,27 +39,6 @@
 <img id="viewer" onclick="closeViewer()">
 
 
-</section>
-
-<script>
-function toggleViewer(img) {
-    const viewer = document.getElementById("viewer");
-
-    if (viewer.style.display === "block" && viewer.src === img.src) {
-        viewer.style.display = "none";   // schließen
-    } else {
-        viewer.src = img.src;            // öffnen
-        viewer.style.display = "block";
-    }
-}
-
-function closeViewer() {
-    document.getElementById("viewer").style.display = "none";
-}
-</script>
-</body>
-</html>
-
 <p>AMERICAN VERSUS EUROPEAN TEACHING AID </p>
 <p>May 25, 2025</p>
 <p>Michel Büchsenmann, Thilo Brendel, John McCrackpipe</p>
@@ -104,3 +83,24 @@ There is a question of whether this new work is skeptical or fraudulent. Skeptic
 
 
 </section>
+
+<script>
+function toggleViewer(img) {
+    const viewer = document.getElementById("viewer");
+
+    if (viewer.style.display === "block" && viewer.src === img.src) {
+        viewer.style.display = "none";   // schließen
+    } else {
+        viewer.src = img.src;            // öffnen
+        viewer.style.display = "block";
+    }
+}
+
+function closeViewer() {
+    document.getElementById("viewer").style.display = "none";
+}
+</script>
+</body>
+</html>
+
+
