@@ -10,7 +10,7 @@ body {
     width: 100%;
     max-width: 500px;
     display: block;
-    margin-bottom: 20px;
+    
 }
 #viewer {
     display: none;
