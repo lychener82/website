@@ -71,6 +71,7 @@ img:not(.preview):not(#viewer) {
 /* Standard = kein Grid */
 .gallery {
     display: block;
+    margin-bottom: 5px;
 }
 .gallery .preview {
     margin-bottom: 5px;
