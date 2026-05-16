@@ -35,7 +35,7 @@ body {
 }
 p {
     max-width: 650px;
-    margin: 2px 0;
+    margin: 5px 0;
 }
 .donate-button {
     position: fixed;
@@ -96,4 +96,9 @@ img:not(.preview):not(#viewer) {
     background-repeat: no-repeat;
 
     z-index: -1;
+}
+
+nav a {
+    display: block;
+    margin: 5px 0;
 }
