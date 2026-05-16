@@ -83,17 +83,6 @@ img:not(.preview):not(#viewer) {
     margin: 4px 0;
 }
 
-.background {
-    position: fixed;
-    inset: 0;
-
-    background-image: url("glitch.png");
-    background-size: cover;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-
-    z-index: -1;
-}
 
 nav a {
     display: block;
