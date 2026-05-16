@@ -73,10 +73,10 @@ img:not(.preview):not(#viewer) {
 /* Standard = kein Grid */
 .gallery {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .gallery .preview {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .content a {
     display: block;
