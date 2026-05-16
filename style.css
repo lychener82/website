@@ -80,7 +80,7 @@ img:not(.preview):not(#viewer) {
 }
 .content a {
     display: block;
-    margin-top: 5px;
+    margin: 4px 0;
 }
 
 .background {
