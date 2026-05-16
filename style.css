@@ -80,3 +80,14 @@ img:not(.preview):not(#viewer) {
     display: block;
     margin-top: 5px;
 }
+
+.background {
+    position: fixed;
+    inset: 0;
+
+    background-image: url("glitch.png");
+    background-size: cover;
+    background-position: center;
+
+    z-index: -1;
+}
