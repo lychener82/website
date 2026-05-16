@@ -76,3 +76,7 @@ img:not(.preview):not(#viewer) {
 .gallery .preview {
     margin-bottom: 5px;
 }
+.content a {
+    display: block;
+    margin-top: 5px;
+}
