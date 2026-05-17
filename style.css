@@ -95,3 +95,6 @@ nav a {
     display: block;
     margin: 5px 0;
 }
+.gallery p {
+    margin: 0;
+}
