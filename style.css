@@ -84,6 +84,7 @@ img:not(.preview):not(#viewer) {
 .subtitle {
     margin: 0;
     line-height: 1.3;
+    margin-bottom: 20px
 }
 
 .caption {
