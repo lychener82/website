@@ -87,7 +87,7 @@ img:not(.preview):not(#viewer) {
 }
 
 .caption {
-    margin: -15px 0 20px 0;
+    margin: -15px 0 5px 0;
     max-width: 750px;
     line-height: 1.3;
 }
