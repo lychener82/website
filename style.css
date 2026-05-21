@@ -51,11 +51,7 @@ p {
     flex-direction: column;
     gap: 10px;
 }
-.gallery.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
+
 /* Work Block (NEU) */
 .work {
     display: flex;
@@ -93,6 +89,12 @@ nav a {
 /* Optional andere Bilder */
 img:not(.preview):not(#viewer) {
     max-width: 100%;
+}
+
+.gallery.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .gallery.grid .preview {
