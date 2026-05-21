@@ -40,7 +40,7 @@ p {
     line-height: 1.2;
 }
 .subtitle {
-    margin-bottom: 10 px;
+    margin-bottom: 10px;
     line-height: 1.2;
     
 }
@@ -51,7 +51,11 @@ p {
     flex-direction: column;
     gap: 10px;
 }
-
+.gallery.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
 /* Work Block (NEU) */
 .work {
     display: flex;
