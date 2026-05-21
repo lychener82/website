@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     background: black;
     color: white;
 }
@@ -45,7 +45,7 @@ p {
 .gallery {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 /* Work Block (NEU) */
