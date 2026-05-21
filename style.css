@@ -35,10 +35,14 @@ p {
 }
 
 /* Titel / Subtitle */
-.title,
+.title { 
+    margin: 0;
+    line-height: 1.2;
+}
 .subtitle {
     margin: 0;
     line-height: 1.2;
+    margin-bottom: 10 px
 }
 
 /* Gallery System */
