@@ -90,3 +90,9 @@ nav a {
 img:not(.preview):not(#viewer) {
     max-width: 100%;
 }
+
+.gallery.grid .preview {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
