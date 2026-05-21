@@ -63,7 +63,7 @@ p {
     width: 100%;
     max-width: 500px;
     display: block;
-    margin: 0 0 6px 0;
+    margin: 0 0 10px 0;
     cursor: pointer;
 }
 
@@ -83,7 +83,7 @@ p {
 /* Navigation */
 nav a {
     display: block;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 /* Optional andere Bilder */
