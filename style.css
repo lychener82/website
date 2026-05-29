@@ -125,7 +125,12 @@ img:not(.preview):not(#viewer) {
     color: #0000ff;
 }
 .kofi-button {
-    width: 180px;
+    width: 160px;
     height: auto;
     display: block;
+    transition: transform 0.2s ease;
+}
+
+.kofi-button:hover {
+    transform: scale(1.05);
 }
