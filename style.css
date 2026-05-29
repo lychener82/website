@@ -107,7 +107,10 @@ img:not(.preview):not(#viewer) {
     gap: 10px;
 }
 .donate {
-    margin-top: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
 }
 
 .donate a {
