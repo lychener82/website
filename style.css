@@ -121,10 +121,6 @@ img:not(.preview):not(#viewer) {
     background: transparent;
 }
 
-.donate a:hover {
-    background: white;
-    color: #0000ff;
-}
 .kofi-button {
     display: block;
     width: 160px;
