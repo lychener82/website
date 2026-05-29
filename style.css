@@ -124,3 +124,8 @@ img:not(.preview):not(#viewer) {
     background: white;
     color: #0000ff;
 }
+.kofi-button {
+    width: 180px;
+    height: auto;
+    display: block;
+}
