@@ -129,7 +129,7 @@ img:not(.preview):not(#viewer) {
 }
 
 .kofi-button:hover {
-    transform: scale(1.06);
+    transform: scale(1.26);
 }
 
 @media (max-width: 768px) {
