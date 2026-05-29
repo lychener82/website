@@ -122,10 +122,14 @@ img:not(.preview):not(#viewer) {
 }
 
 .kofi-button {
-    display: block;
     width: 160px;
     height: auto;
-    border: none;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.kofi-button:hover {
+    transform: scale(1.06);
 }
 
 @media (max-width: 768px) {
