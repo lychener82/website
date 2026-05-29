@@ -132,6 +132,13 @@ img:not(.preview):not(#viewer) {
     border: none;
 }
 
-.kofi-button:hover {
-    transform: scale(1.05);
+@media (max-width: 768px) {
+    .kofi-button {
+        width: 120px;
+    }
+
+    .donate {
+        bottom: 12px;
+        right: 12px;
+    }
 }
