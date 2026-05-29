@@ -111,13 +111,11 @@ img:not(.preview):not(#viewer) {
 }
 
 .donate a {
-    display: inline-block;
-    padding: 12px 18px;
-    background: #0000ff;
-    color: white;
+    display: block;
     text-decoration: none;
-    font-family: sans-serif;
-    border: 1px solid white;
+    border: none;
+    padding: 0;
+    background: transparent;
 }
 
 .donate a:hover {
@@ -125,10 +123,10 @@ img:not(.preview):not(#viewer) {
     color: #0000ff;
 }
 .kofi-button {
+    display: block;
     width: 160px;
     height: auto;
-    display: block;
-    transition: transform 0.2s ease;
+    border: none;
 }
 
 .kofi-button:hover {
