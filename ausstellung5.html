@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hana Earles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="index.html" class="home-link">HOME</a>
+
+<section class="content">
+
+    <p class="title">Hana Earles</p>
+
+    <div class="gallery grid">
+        <img src="HanaEarlesInvitation.JPG" class="preview" onclick="toggleViewer(this)">
+    </div>
+
+</section>
+
+<!-- VIEWER -->
+<img id="viewer" onclick="closeViewer()">
+
+<script>
+function toggleViewer(img) {
+    const viewer = document.getElementById("viewer");
+
+    if (viewer.style.display === "block" && viewer.src === img.src) {
+        viewer.style.display = "none";
+    } else {
+        viewer.src = img.src;
+        viewer.style.display = "block";
+    }
+}
+
+function closeViewer() {
+    document.getElementById("viewer").style.display = "none";
+}
+</script>
+
+</body>
+</html>
