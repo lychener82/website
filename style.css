@@ -71,7 +71,7 @@ p {
 
 /* Caption direkt unter Bild */
 .caption {
-    margin: 0;
+    margin: 10 px;
     line-height: 1.25;
     max-width: 750px;
 }
@@ -79,7 +79,7 @@ p {
 /* Links */
 .content a {
     display: block;
-    margin: 0;
+    margin: 10px;
 }
 
 /* Navigation */
