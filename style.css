@@ -57,7 +57,7 @@ p {
 .work {
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 10px;
 }
 
 /* Bilder */
@@ -71,7 +71,7 @@ p {
 
 /* Caption direkt unter Bild */
 .caption {
-    margin: 10px 0 10px 0;
+    margin: 0;
     line-height: 1.25;
     max-width: 750px;
 }
