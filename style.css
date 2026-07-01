@@ -57,6 +57,7 @@ p {
 .work {
     display: flex;
     flex-direction: column;
+    margin: 0 0 10px 0;
 }
 
 /* Bilder */
@@ -105,40 +106,4 @@ img:not(.preview):not(#viewer) {
     max-width: 300px;
     margin: 0;
     gap: 10px;
-}
-.donate {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-}
-
-.donate a {
-    display: block;
-    text-decoration: none;
-    border: none;
-    padding: 0;
-    background: transparent;
-}
-
-.kofi-button {
-    width: 160px;
-    height: auto;
-    display: block;
-    transition: transform 0.2s ease;
-}
-
-.kofi-button:hover {
-    transform: scale(1.26);
-}
-
-@media (max-width: 768px) {
-    .kofi-button {
-        width: 120px;
-    }
-
-    .donate {
-        bottom: 12px;
-        right: 12px;
-    }
 }
