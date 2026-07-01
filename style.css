@@ -57,7 +57,7 @@ p {
 .work {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
 }
 
 /* Bilder */
@@ -65,13 +65,13 @@ p {
     width: 100%;
     max-width: 500px;
     display: block;
-    margin: 0 0 10px 0;
+    margin: 0;
     cursor: pointer;
 }
 
 /* Caption direkt unter Bild */
 .caption {
-    margin: 0;
+    margin: 0 0 10px 0;
     line-height: 1.25;
     max-width: 750px;
 }
