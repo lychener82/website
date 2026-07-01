@@ -41,7 +41,7 @@ p {
     line-height: 1.2;
 }
 .subtitle {
-    margin: 0 0 10px 0;
+    margin: 10px 0 10px 0;
     line-height: 1.2;
     
 }
@@ -71,7 +71,7 @@ p {
 
 /* Caption direkt unter Bild */
 .caption {
-    margin: -5px 0 10px 0;
+    margin: 10px 0 10px 0;
     line-height: 1.25;
     max-width: 750px;
 }
