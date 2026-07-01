@@ -79,7 +79,7 @@ p {
 /* Links */
 .content a {
     display: block;
-    margin: 0;
+    margin: 4px;
 }
 
 /* Navigation */
