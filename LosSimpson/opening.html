@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Los Simpson: More Photos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<a href="index.html" class="home-link">HOME</a>
+
+<section class="content">
+
+    <p class="title">
+        <em>Los Simpson: What Is, What Was And What Could Be</em>
+    </p>
+
+    <p class="title">17.07.2026, 6 pm</p>
+    <p class="subtitle">Super Mini Athens</p>
+
+    <a href="LosSimpson.html">Back</a>
+
+    <div class="gallery">
+
+        <div class="work">
+            <img src="LosSimpson/IMG_1213.jpeg"
+                 class="preview"
+                 onclick="toggleViewer(this)"
+                 alt="">
+        </div>
+
+        <div class="work">
+            <img src="LosSimpson/IMG_1220.jpeg"
+                 class="preview"
+                 onclick="toggleViewer(this)"
+                 alt="">
+        </div>
+
+        <div class="work">
+            <img src="LosSimpson/IMG_1253.jpeg"
+                 class="preview"
+                 onclick="toggleViewer(this)"
+                 alt="">
+        </div>
+  <div class="work">
+    <img src="LosSimpson/IMG_0159.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0160.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0163.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0175.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0177.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0180.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0182.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0184.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0186.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0187.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0189.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0190.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0193.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0194.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0195.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0196.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0197.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0198.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0203.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0207.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0208.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0209.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0210.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0211.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0217.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+<div class="work">
+    <img src="LosSimpson/IMG_0218.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+        <div class="work">
+    <img src="LosSimpson/IMG_0222.JPG" class="preview" onclick="toggleViewer(this)">
+</div>
+
+    </div>
+
+</section>
+
+<!-- VIEWER -->
+<img id="viewer" onclick="closeViewer()" alt="Vergrößerte Ansicht">
+
+<script>
+function toggleViewer(img) {
+    const viewer = document.getElementById("viewer");
+
+    if (viewer.style.display === "block" && viewer.src === img.src) {
+        viewer.style.display = "none";
+    } else {
+        viewer.src = img.src;
+        viewer.style.display = "block";
+    }
+}
+
+function closeViewer() {
+    document.getElementById("viewer").style.display = "none";
+}
+</script>
+
+</body>
+</html>
